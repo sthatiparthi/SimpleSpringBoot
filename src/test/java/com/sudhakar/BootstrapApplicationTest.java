@@ -12,11 +12,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.junit.Assert.*;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple BootstrapApplication.
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class AppTest
+public class BootstrapApplicationTest
 {
 
     @Autowired
