@@ -16,9 +16,9 @@ public class UserEndpoint {
 
     @GetMapping(path = "get",produces ="application/json",consumes = "application/json")
     public  void getUserById(@RequestParam("id") Integer id){
-        USER_LOGGER.info("Start:getUserById Id "+id);
+        USER_LOGGER.info("Start:getUserById Id :: "+id);
         userService.getUserById(id);
-        USER_LOGGER.info("End:getUserById Id "+id);
+        USER_LOGGER.info("End:getUserById Id :: "+id);
     }
 
     @PostMapping(path = "/saveUser",produces = "application/json",consumes = "application/json")
