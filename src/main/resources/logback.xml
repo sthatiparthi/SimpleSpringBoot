@@ -41,11 +41,11 @@
         </encoder>
     </appender>
 
-<logger name="com.pramati" level="debug" additivity="false">
+<logger name="com.sudhakar" level="debug" additivity="false">
 <appender-ref ref="FILE-ROLLING"/>
 </logger>
 
-<logger name="com.pramati.endpoint" level="debug" additivity="false">
+<logger name="com.sudhakar.endpoint" level="debug" additivity="false">
 <appender-ref ref="ENDPOINT-ROLLING"/>
 </logger>
 

@@ -1,6 +1,6 @@
-package com.pramati.repositories;
+package com.sudhakar.repositories;
 
-import com.pramati.model.User;
+import com.sudhakar.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User,Long> {

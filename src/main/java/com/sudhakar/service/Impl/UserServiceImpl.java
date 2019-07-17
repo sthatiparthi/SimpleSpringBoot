@@ -1,8 +1,8 @@
-package com.pramati.service.Impl;
+package com.sudhakar.service.Impl;
 
-import com.pramati.model.User;
-import com.pramati.repositories.UserRepository;
-import com.pramati.service.IUserService;
+import com.sudhakar.model.User;
+import com.sudhakar.repositories.UserRepository;
+import com.sudhakar.service.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.pramati.model;
+package com.sudhakar.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

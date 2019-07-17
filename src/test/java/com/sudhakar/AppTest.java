@@ -1,7 +1,7 @@
-package com.pramati;
+package com.sudhakar;
 
-import com.pramati.model.User;
-import com.pramati.service.IUserService;
+import com.sudhakar.model.User;
+import com.sudhakar.service.IUserService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

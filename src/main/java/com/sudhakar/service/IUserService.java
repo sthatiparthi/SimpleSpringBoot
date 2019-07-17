@@ -1,6 +1,6 @@
-package com.pramati.service;
+package com.sudhakar.service;
 
-import com.pramati.model.User;
+import com.sudhakar.model.User;
 
 public interface IUserService {
 
